@@ -1,0 +1,34 @@
+CODE:
+
+#include<stdio.h>
+int main()
+{
+    int n,r,sum=0,temp;
+    printf("Enter the Number :");
+    scanf("%d",&n);
+    temp=n;
+    while(n!=0)
+    {
+        r=n%10;
+        sum=sum+(r*r*r);
+        n=n/10;
+    }
+    n=temp;
+    if(sum==n)
+    {
+        printf("ARMSTRONG NUMBER");
+    }
+    else
+    {
+        printf("NOT AN ARMSTRONG NUMBER");
+    }
+    return 0;
+}
+
+OUTPUT:
+
+Enter the Number :153
+ARMSTRONG NUMBER
+
+Enter the Number :151
+NOT AN ARMSTRONG NUMBER
