@@ -1,0 +1,39 @@
+CODE:
+
+#include<stdio.h>
+int main()
+{
+    int n,r,ecount=0,ocount=0;
+    printf("Enter the number:");
+    scanf("%d",&n);
+    while(n>0)
+    {
+        r=n%10;
+        if(r%2==0)
+        {
+            ecount=ecount+1;
+        }
+        else
+        {
+            ocount=ocount+1;
+        }
+        n=n/10;
+    }
+    if(ecount==ocount)
+    {
+        printf("Fancy Number");
+    }
+    else
+    {
+        printf("Not a Fancy Number");
+    }
+    return 0;
+}
+
+OUTPUT:
+
+Enter the number:123456
+Fancy Number
+
+Enter the number:12345
+Not a Fancy Number
