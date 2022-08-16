@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    int a[10],n,i,j,count;
+    printf("Enter the size:");
+    scanf("%d",&n);
+    printf("Enter elements");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    printf("prime number are");
+    for(i=0;i<n;i++)
+    {
+        count=0;
+        for(j=2;j<a[i];j++)
+        {
+            if(a[i]%j==0)
+            {
+                count=1;
+                break;
+            }
+        }
+        if(count==0)
+        {
+            printf("\t %d",a[i]);
+        }
+    }
+    return 0;
+}
