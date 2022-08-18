@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int arr[]={20,6,101,8,59,11,13,10,17,99};
+    int i,n,f,sum;
+    for(i=0;i<n;i++)
+    {
+        n=arr[i];
+        f=f*arr[i];
+    }
+    sum=sum+f;
+    printf("Sum = %d",sum);
+    return 0;
+}
