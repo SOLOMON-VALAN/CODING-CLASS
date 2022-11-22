@@ -1,0 +1,6 @@
+p=eval(input("Enter principal amount : "))
+t=eval(input("Enter time period : "))
+r=eval(input("Enter rate of interest : "))
+si=(p*t*r)/100
+emi=(p+si)/t*12
+print("EMI : ",emi)
