@@ -1,0 +1,7 @@
+a=eval(input("Enter the value of a : "))
+b=eval(input("Enter the value of b : "))
+a=a+b
+b=a-b
+a=a-b
+print("After Swapping a = ",a)
+print("After Swapping b = ",b)
