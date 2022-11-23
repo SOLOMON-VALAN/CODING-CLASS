@@ -1,0 +1,6 @@
+a=eval(input('Enter a value : '))
+b=eval(input('Enter b value : '))
+if(a==b):
+    print(a , b ,'Are equal')
+else:
+    print(a , b ,'Are not equal')
