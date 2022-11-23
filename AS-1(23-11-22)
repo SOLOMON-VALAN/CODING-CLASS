@@ -1,0 +1,6 @@
+a=eval(input('Enter value of a : '))
+b=eval(input('Enter value of b : '))
+if(a>b):
+    print(a, 'is the biggest number')
+else:
+    print(b, 'is the biggest number')
