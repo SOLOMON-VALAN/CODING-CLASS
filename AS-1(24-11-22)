@@ -1,0 +1,16 @@
+a=eval(input('Enter a value : '))
+b=eval(input('Enter b value : '))
+c=a+b
+print(c)
+c=a-b
+print(c)
+c=a*b
+print(c)
+c=a/b
+print(c)
+c=a%b
+print(c)
+c=a**b
+print(c)
+c=a//b
+print(c)
