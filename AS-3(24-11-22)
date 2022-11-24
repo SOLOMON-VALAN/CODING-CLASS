@@ -1,0 +1,22 @@
+sno=eval(input('Enter student number : '))
+sname=input('Enter student name : ')
+sgroup=input('Enter group : ')
+s1=eval(input('Enter subject 1 marks : '))
+s2=eval(input('Enter subject 2 marks : '))
+s3=eval(input('Enter subject 3 marks : '))
+print('!!!DISPLAYING STUDENT DETAILS!!!')
+print(sno)
+print(sname)
+print(sgroup)
+print(s1)
+print(s2)
+print(s3)
+if(s1>35 and s2>35 and s3>35):
+    print('Student has passed the Exams')
+else:
+    print('Student has failed the Exams')
+
+
+
+
+          
