@@ -1,0 +1,11 @@
+a=eval(input('Enter a value : '))
+b=eval(input('Enter b value : '))
+print(a>b)
+print(a<b)
+print(a==b)
+print(a!=b)
+print(a<=b)
+print(a>=b)
+    
+    
+
