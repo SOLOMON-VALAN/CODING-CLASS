@@ -1,0 +1,7 @@
+list=[25,65,95,26,35,38,66,55,48]
+print('GIVEN LIST = ',list)
+min=list[0]
+for i in list:
+    if i<min:
+        min=i
+print("MINIMUM VALUE IN THE GIVEN LIST IS :  " ,min)
