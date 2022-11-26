@@ -1,0 +1,5 @@
+a=eval(input('Enter a vslue : '))
+b=eval(input('Enter b value : '))
+print(a&b)
+print(a|b)
+print(a^b)
