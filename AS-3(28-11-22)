@@ -1,0 +1,5 @@
+bal=1000
+n=eval(input("Enter amount : "))
+print("Amount credited = " ,n)
+x=n+bal
+print("Main balance = ",x)
