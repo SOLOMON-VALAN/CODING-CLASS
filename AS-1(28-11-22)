@@ -1,0 +1,6 @@
+pin=2893
+n=eval(input("Enter pin : "))
+if(pin==n):
+    print("continue the transaction")
+else:
+    print("incorrect pin number please try again")
