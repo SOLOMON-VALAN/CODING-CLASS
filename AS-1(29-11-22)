@@ -1,0 +1,22 @@
+a=int(input("Enter a number : "))
+b=int(input("Enter a number : "))
+c=int(input("Enter a number : "))
+d=int(input("Enter a number : "))
+if(a>b):
+    if(a>c):
+        if(a>d):
+            print(a, "is the biggest number")
+if(b>a):
+    if(b>c):
+        if(b>d):
+            print(b, "is the biggest number")
+if(c>a):
+    if(c>b):
+        if(c>d):
+            print(c, "is the biggest number")
+if(d>a):
+    if(d>b):
+        if(d>c):
+            print(d, "is the biggest number")
+    
+    
