@@ -1,0 +1,47 @@
+bread=100
+rice=200
+eggs=60
+milk=30
+nuts=300
+cpho=int(input("enter phone number : "))
+cname=input("enter a name : ")
+address=input("enter address : ")
+q1=int(input("enter nunber of items : "))
+q2=int(input("enter number of items : "))
+q3=int(input("enter number of items : "))
+q4=int(input("enter number of items : "))
+q5=int(input("ebter number if items : "))
+coupon=input("enter a code in captal : ")
+bill=(q1*bread)+(q2*rice)+(q3*eggs)+(q4*milk)+(q5*nuts)
+if(bill>3000):
+	tax=bill*5/100
+elif(bill>2000):
+	tax=bill*7/100
+elif(bill>1000):
+	tax=bill*10/100
+elif(bill>500):
+	tax=bill*15/100
+else:
+	tax=100
+if (coupon=='DIWALI' and bill>=5000):
+	dis=bill*10/100
+if(coupon=='DIWALI' and bill>=3000):
+	dis=bill*6/100
+if(coupon=='DIWALI' and bill>=1000):
+	dis=bill*4/100
+else:
+	dis=0
+if(coupon=='CHRISTMAS' and bill>=3000):
+	dis=bill*20/100
+if(coupon=='CHRISTMAS' and bill>=2000):
+	dis=bill*10/100
+if(coupon=='CHRISTMAS' and bill>=1000):
+	dis=bill*5/100
+else:
+	dis=0
+total=tax+bill
+print("customer phone number : ",cpho)
+print("customer name : ",cname)
+print("tax : ",tax)
+print("total bill : ",bill)
+print("discount : ",dis)
