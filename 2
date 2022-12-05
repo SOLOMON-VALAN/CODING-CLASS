@@ -1,0 +1,15 @@
+n=int(input("Enter number of numbers : "))
+num=int(input("Enter any number : ")) 
+lar=num
+sml=num
+i=1
+while(i<=n):
+    print("Enter any number : ")
+    if(n>lar):
+        lar=n
+    if(n<sml):
+        sml=n
+print("Largest number : ",lar)
+print("Smallest number : ",sml)
+diff=lar-sml
+print("Difference = ",diff)
