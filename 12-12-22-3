@@ -1,0 +1,9 @@
+t=[]
+n=int(input("Enter number if elements : "))
+for i in range(n):
+    x=int(input("Enter number : "))
+    t.append(x)
+print(t)
+print(t[0])
+print(t[2])
+print(t[4])
