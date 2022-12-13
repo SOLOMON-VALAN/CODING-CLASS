@@ -1,0 +1,7 @@
+ap=[]
+n=int(input("Enter number of cities : "))
+for i in range(n):
+	x=input("Enter city name : ")
+	ap.append(x)
+ap.sort()
+print(ap)
