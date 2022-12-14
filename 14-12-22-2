@@ -1,0 +1,14 @@
+a=[]
+n=int(input("Enter number of elements : "))
+for i in range(1,n+1):
+    m=int(input("Enter element : " ))
+    a.append(m)
+maxi=a[0]
+mini=a[0]
+for i in range(n):
+    if a[i]>maxi:
+        maxi=a[i]
+    elif a[i]<mini: 
+        mini=a[i]
+print(maxi)
+print(mini)
