@@ -1,0 +1,4 @@
+l=["aditya","degree","college"]
+print("list",l)
+l.reverse()
+print("list reverse",l)
