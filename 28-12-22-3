@@ -1,0 +1,8 @@
+l=list(map(int,input().split()))
+f=len(l)//2
+b=len(l)-1
+while(f<b):
+    l[f],l[b]=l[b],l[f]
+    f+=1
+    b-=1
+print(l)
