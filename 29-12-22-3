@@ -1,0 +1,7 @@
+n=int(input("Enter number of elements : "))
+l=list(map(float,input("Enter elements : ").split()))
+c=0
+for i in range(0,n):
+    if(l[i]%2==0):
+        c=c+1
+print(c)
