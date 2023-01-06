@@ -1,0 +1,9 @@
+email=input("Enter mail ID : ")
+if(email.endswith("@gmail.com")):
+   print("You are using google account ")
+elif(email.endswith("@yahoo.com")):
+     print("You are using yahoo account ")
+elif(email.endswith("@adc.aditya.ac.in")):
+     print("You are using aditya educational institution account")
+else:
+    print("Invalid emai ID ")
