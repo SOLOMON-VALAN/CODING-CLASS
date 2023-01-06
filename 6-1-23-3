@@ -1,0 +1,13 @@
+email=input("Enter email ID : ")
+phno=input("Enter mobile number : ")
+c=0
+f=int(phno[0:2])
+for i in phno:
+    if i.isdigit():
+        c=c+1
+if email.endswith("@gmail.com") or email.endswith("@yahoo.com") or email.endswith("@adc.aditya.ac.in")and c==11 and f>5 and phno[0]=='0':
+    print("Registration Successfull")
+else:
+    print("check your details")
+
+   
