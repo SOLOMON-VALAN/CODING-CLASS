@@ -1,0 +1,5 @@
+y=input("Enter a word : ")
+x = ""
+for i in y:
+    x += i
+    print(x)
