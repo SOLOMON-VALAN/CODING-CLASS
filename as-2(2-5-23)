@@ -1,0 +1,15 @@
+
+l=list(map(int,input().split()))
+d={}
+for i in l:
+    if i not in d:
+        d[i]=1
+    else:
+        d[i]=d[i]+1
+m=list(d.values())
+r=max(m)
+print(r)
+x=min(m)
+print(x)
+c=r-x
+print(c)
