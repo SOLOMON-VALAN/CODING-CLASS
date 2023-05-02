@@ -1,0 +1,7 @@
+num_list = list(map(int, input("Enter a list of integers separated by spaces: ").split()))
+num_freq = Counter(num_list)
+max_freq_num = num_freq.most_common(1)[0][0]
+min_freq_num = num_freq.most_common()[-1][0]
+diff = abs(num_freq[max_freq_num] - num_freq[min_freq_num])
+print(f"The maximum frequency number is {max_freq_num}, and the minimum frequency number is {min_freq_num}.")
+print(f"The difference between their frequencies is {diff}.")
