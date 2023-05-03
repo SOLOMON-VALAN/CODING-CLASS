@@ -1,0 +1,7 @@
+par=input()
+ch=input()
+count=0
+for i in par:
+    if i==ch:
+        count=count+1
+print(count)
