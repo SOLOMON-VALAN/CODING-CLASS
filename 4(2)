@@ -1,0 +1,18 @@
+class Solution:
+    def palindrome(self,x):
+        n=x
+        s=0
+        while(n>0):
+            r=n%10
+            s=(s*10)+r
+            n=n//10
+        if(s==x):
+            return 1
+print("Enter a number : ",end=' ')
+n=int(input())
+s=Solution()
+a=s.palindrome(n)
+if a==1:
+    print("GIVEN NUMBER IS A PALINDROME NUMBER")
+else:
+    print("GIVEN NUMBER IS NOT A PALINDROME NUMBER")
