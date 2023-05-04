@@ -1,0 +1,14 @@
+class Solution:
+    def leap(self,x):
+        if y%4==0 and y%100!=0:
+            return 1
+        elif y%400==0:
+            return 1
+print("Enter year : ",end=' ')
+y=int(input())
+s=Solution()
+a=s.leap(y)
+if a==1:
+    print("LEAP YEAR")
+else:
+    print("NOT A LEAP YEAR")
