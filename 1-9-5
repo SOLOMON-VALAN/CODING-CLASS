@@ -1,0 +1,7 @@
+n=int(input())
+c=2
+while(n!=1):
+    if n%c==0:
+        c=c+1
+    print(c)
+    break
