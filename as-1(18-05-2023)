@@ -1,0 +1,14 @@
+def sub(l):
+    n=len(l)
+    max=0
+    sum=0
+    for i in range(0,n):
+        sum=sum+l[i]
+        if sum<0:
+            sum=0
+        elif(max<sum):
+            max=sum
+    return max
+l=list(map(int,input().split()))
+print(sub(l))
+    
